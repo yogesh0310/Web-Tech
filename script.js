@@ -22,7 +22,7 @@ $("document").ready(function () {
 			var s=opt.value;	
 			document.querySelector(".profile").innerHTML=`<div class="panel panel-default">
 				<div class="panel-heading">
-			<h3 class="panel-title">Menu_items</h3>
+			<h3 class="panel-title center">`+data[s].name+`</h3>
 				</div>
 				<div class="panel-body">
 				<div class="row">
